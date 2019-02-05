@@ -1,0 +1,2 @@
+# idfystatic
+Idfy static resources
