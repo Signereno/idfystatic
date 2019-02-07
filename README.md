@@ -13,8 +13,12 @@ Replace the github url (https://github.com/Signereno/idfystatic/blob/master/) wi
 
 ### Terms
 
-### Contracts
-* [Deposit default account contract in Norwegian](/contracts/deposit/no-default-account-contract.pdf)
-
 #### Deposit
 * [Deposit default terms in Norwegian](/terms/deposit/no-default-terms.md)
+* [Deposit default terms in English](/terms/deposit/en-default-terms.md)
+
+### Contracts
+
+#### Deposit
+* [Deposit default account contract in Norwegian](/contracts/deposit/no-default-account-contract.pdf)
+
