@@ -1,2 +1,7 @@
-# idfystatic
-Idfy static resources
+# Idfy static resources
+
+## Inventory
+
+### Configs
+* [e-id-providers.json](/configs/e-id-providers.json) - List of e-ID providers with logo and description
+
