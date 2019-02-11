@@ -20,7 +20,7 @@
    {
       "type":"no_bankid_mobile",
       "name":"Norwegian mobile BankID",
-      "description":"BankID on your mobile device.",
+      "description":"BankID on your mobile device",
       "logo":{
          "svg":null,
          "sm":"https://idfy-img.azureedge.net/openid/bankID%20mobil%20250x100.png"
