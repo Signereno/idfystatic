@@ -3,30 +3,45 @@
         "type": "se_bankid",
         "name": "Swedish BankID",
         "description": "With mobile app or PC",
-        "logoUrl": "https://idfy-img.azureedge.net/openid/Svensk%20BankID%20250x100.png"
+		"logo": {
+			"svg": null,
+			"sm": "https://idfy-img.azureedge.net/openid/Svensk%20BankID%20250x100.png"
+		}
     },
     {
         "type": "no_bankid_netcentric",
         "name": "Norwegian BankID",
         "description": "With hardware token",
-        "logoUrl": "https://idfy-img.azureedge.net/openid/bankID%20250x100.png"
+		"logo": {
+			"svg": null,
+			"sm": "https://idfy-img.azureedge.net/openid/bankID%20250x100.png"
+		}
     },
     {
         "type": "no_bankid_mobile",
         "name": "Norwegian mobile BankID",
         "description": "BankID on your mobile device.",
-        "logoUrl": "https://idfy-img.azureedge.net/openid/bankID%20mobil%20250x100.png"
+		"logo": {
+			"svg": null,
+			"sm": "https://idfy-img.azureedge.net/openid/bankID%20mobil%20250x100.png"
+		}
     },
     {
         "type": "no_buypass",
         "name": "Norwegian Buypass",
         "description": "Using smart card and reader",
-        "logoUrl": "https://signerefiles.blob.core.windows.net/img/openid/buypass%20250x100.png"
+		"logo": {
+			"svg": null,
+			"sm": "https://idfy-img.azureedge.net/openid/buypass%20250x100.png"
+		}
     },
     {
         "type": "sms_otp",
         "name": "SMS OTP",
         "description": "One-time password via SMS",
-        "logoUrl": "https://idfy-img.azureedge.net/openid/SMS%20250x100.png"
+		"logo": {
+			"svg": null,
+			"sm": "https://idfy-img.azureedge.net/openid/SMS%20250x100.png"
+		}
     }
 ]
