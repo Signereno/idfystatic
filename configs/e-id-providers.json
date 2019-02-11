@@ -13,7 +13,7 @@
       "name":"Norwegian BankID",
       "description":"With hardware token",
       "logo":{
-         "svg":null,
+         "svg": "https://idfy-img.azureedge.net/openid/no_bankid_rgb_blue.svg",
          "sm":"https://idfy-img.azureedge.net/openid/bankID%20250x100.png"
       }
    },
