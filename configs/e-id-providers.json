@@ -1,6 +1,6 @@
 [
     {
-        "type": "swe_bankid",
+        "type": "se_bankid",
         "name": "Swedish BankID",
         "description": "With mobile app or PC",
         "logoUrl": "https://idfy-img.azureedge.net/openid/Svensk%20BankID%20250x100.png"
