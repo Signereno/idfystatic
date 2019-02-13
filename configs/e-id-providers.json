@@ -53,5 +53,16 @@
          "svg": "https://idfy-img.azureedge.net/openid/sms_otp.svg",
          "sm": "https://idfy-img.azureedge.net/openid/SMS%20250x100.png"
       }
+   },
+   {
+      "type": "da_nemid",
+      "name": "Danish NemID",
+      "description": {
+         "en": "National electronic ID with code card"
+      },
+      "logo": {
+         "svg": "https://idfy-img.azureedge.net/openid/nemid.svg",
+         "sm": "https://idfy-img.azureedge.net/openid/NEM%20ID%20250x100.png"
+      }
    }
 ]
