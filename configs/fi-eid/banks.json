@@ -1,0 +1,115 @@
+{
+  "port": 8081,
+  "banks": [
+    {
+      "id": "danskebank",
+      "name": "DanskeBank",
+      "authUrl": "https://verkkopankki.sampopankki.fi/SP/tupaha/TupahaApp",
+      "authUrlTest": null,
+      "version": "0003",
+      "keyVersion": "0001",
+      "idType": "01",
+      "imgPath": "https://www.danskebank.fi/verkkopalvelu/logo.gif",
+      "number": "800",
+      "languages": [ "FI", "SV", "EN" ]
+    },
+    {
+      "id": "handelsbanken",
+      "name": "Handelsbanken",
+      "authUrl": "https://tunnistepalvelu.samlink.fi/TupasTunnistus/SHBtupas.html",
+      "authUrlTest": null,
+      "version": "0002",
+      "keyVersion": "0001",
+      "idType": "01",
+      "imgPath": "logo_handelsbanken.gif",
+      "number": "310",
+      "languages": [ "FI", "SV", "EN" ]
+    },
+    {
+      "id": "nordea",
+      "name": "Nordea",
+      "authUrl": "https://tupas.nordea.fi",
+      "authUrlTest": "https://tupas.nordea.fi/cgi-bin/SOLO3011",
+      "version": "0002",
+      "keyVersion": "0001",
+      "idType": "01",
+      "imgPath": "logo_nordea.gif",
+      "number": "200",
+      "languages": [ "FI", "SV", "EN" ]
+    },
+    {
+      "id": "op",
+      "name": "Osuuspankkiryhmä",
+      "authUrl": "https://kultaraha.op.fi/cgi-bin/krcgi",
+      "authUrlTest": null,
+      "version": "0003",
+      "keyVersion": "0001",
+      "idType": "01",
+      "imgPath": "logo_op.jpg",
+      "number": "500",
+      "languages": [ "FI", "SV", "EN" ]
+    },
+    {
+      "id": "aktia",
+      "name": "Aktia",
+      "authUrl": "https://auth.aktia.fi/tupas",
+      "authUrlTest": "https://auth.aktia.fi/tupastest",
+      "version": "0003",
+      "keyVersion": "0001",
+      "idType": "02",
+      "imgPath": "logo_sppop.gif",
+      "number": "410",
+      "encoding": "ISO-8859-1",
+      "languages": [ "FI", "SV" ]
+    },
+
+    {
+      "id": "alandsbanken",
+      "name": "Ålandsbanken",
+      "authUrl": "https://online.alandsbanken.fi/service/identify",
+      "authUrlTest": null,
+      "version": "0002",
+      "keyVersion": "0001",
+      "idType": "02",
+      "imgPath": "logo_alandsbanken.gif",
+      "number": "600",
+      "languages": [ "FI", "SV" ]
+    },
+    {
+      "id": "spankki",
+      "name": "S-Pankki",
+      "authUrl": "https://online.s-pankki.fi/service/identify",
+      "authUrlTest": null,
+      "version": "0002",
+      "keyVersion": "0001",
+      "idType": "02",
+      "imgPath": "logo_s_pankki.gif",
+      "number": "390",
+      "languages": [ "FI", "SV" ]
+    },
+    {
+      "id": "saastopankki",
+      "name": "Säästöpankki",
+      "authUrl": "https://tupas.saastopankki.fi",
+      "authUrlTest": null,
+      "version": "0002",
+      "keyVersion": "0001",
+      "idType": "01",
+      "imgPath": "logo_sp.png",
+      "number": "420",
+      "languages": [ "FI", "SV", "EN" ]
+    },
+    {
+      "id": "poppankki",
+      "name": "POPPankki",
+      "authUrl": "https://tupas.poppankki.fi",
+      "authUrlTest": null,
+      "version": "0002",
+      "keyVersion": "0001",
+      "idType": "01",
+      "imgPath": "logo_pop.png",
+      "number": "430",
+      "languages": [ "FI", "SV", "EN" ]
+    }
+  ]
+}
