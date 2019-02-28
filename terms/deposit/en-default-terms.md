@@ -1,4 +1,4 @@
-Description and terms for use of the deposit account service
+Description and terms of use for the deposit account service
 ======= 
 
 ## 1.	Short description of the service
