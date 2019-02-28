@@ -6,11 +6,11 @@ For å kunne leie bolig av [landLord], må du opprette en depositumskonto hos [l
 
 ## 2.	Vilkår og samtykke for bruk av tjenesten
 Bruk av tjenesten forutsetter at du: 
-•	fyller ut obligatoriske opplysninger i søknadsskjemaet
-•	samtykker til elektronisk kommunikasjon og at dokumenter kan sendes til deg elektronisk
-•	aksepterer kontoavtalen
-•	samtykker til behandling av dine personopplysninger
-•	signerer digitalt med BankID på leieavtalen med [landLord] og kontoavtalen med Easybank
+* fyller ut obligatoriske opplysninger i søknadsskjemaet
+* samtykker til elektronisk kommunikasjon og at dokumenter kan sendes til deg elektronisk
+* aksepterer kontoavtalen
+* samtykker til behandling av dine personopplysninger
+* signerer digitalt med BankID på leieavtalen med [landLord] og kontoavtalen med Easybank
 
 ## 3.	Behandling av personopplysninger
 I forbindelse med avtale om depositumskonto og søknad om depositumslån, vil det oppbevares og behandles personopplysninger fra avtaleskjema/søknadsskjema som du fyller ut, f.eks. ditt navn, adresse, mobilnummer og e-postadresse. Personopplysningene vil bli slettet så snart leieforholdet opphører, eller banken ikke har behov for dem lenger (enkelte opplysninger er lagringspliktig i en viss tid i henhold til lovverk, for eksempel bokføringsloven og hvitvaskingsloven). 
