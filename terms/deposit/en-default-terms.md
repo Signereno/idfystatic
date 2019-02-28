@@ -6,11 +6,11 @@ In order to enter into a tenancy agreement with [landLord], you must create a de
 
 ## 2.	Terms and conditions for use of the service
 Use of the service requires that you: 
-•	Enter mandatory information in the application form
-•	Consent to electronic communication and that documents can be sent to you electronically 
-•	Accept the account agreement
-•	Consent to processing of your personal information
-•	Sign digitally using your BankID on the tenancy agreement with [landLord] and the account agreement with Easybank
+* Enter mandatory information in the application form
+* Consent to electronic communication and that documents can be sent to you electronically 
+* Accept the account agreement
+* Consent to processing of your personal information
+* Sign digitally using your BankID on the tenancy agreement with [landLord] and the account agreement with Easybank
 
 ## 3.	Processing of personal information
 In connection with the account agreement or loan application, personal information filled out in the agreement/application form, like your name, address, mobile number and e-mail address, will be processed. Your personal information will be deleted as soon as the tenancy agreement ends or when the bank does not require it any longer (certain data must be stored longer due to regulations like the anti money-laundering act and the accounting act).
