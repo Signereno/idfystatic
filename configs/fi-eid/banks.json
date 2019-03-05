@@ -9,7 +9,7 @@
       "version": "0003",
       "keyVersion": "0001",
       "idType": "01",
-      "imgPath": "https://www.danskebank.fi/verkkopalvelu/logo.gif",
+      "imgPath": "https://idfy-img.azureedge.net/fi-eid-banks/danskebank.svg",
       "number": "800",
       "languages": [ "FI", "SV", "EN" ]
     },
@@ -21,7 +21,7 @@
       "version": "0002",
       "keyVersion": "0001",
       "idType": "01",
-      "imgPath": "logo_handelsbanken.gif",
+      "imgPath": "https://idfy-img.azureedge.net/fi-eid-banks/handelsbanken.svg",
       "number": "310",
       "languages": [ "FI", "SV", "EN" ]
     },
@@ -33,7 +33,7 @@
       "version": "0002",
       "keyVersion": "0001",
       "idType": "01",
-      "imgPath": "logo_nordea.gif",
+      "imgPath": "https://idfy-img.azureedge.net/fi-eid-banks/nordea.svg",
       "number": "200",
       "languages": [ "FI", "SV", "EN" ]
     },
@@ -45,7 +45,7 @@
       "version": "0003",
       "keyVersion": "0001",
       "idType": "01",
-      "imgPath": "logo_op.jpg",
+      "imgPath": "https://idfy-img.azureedge.net/fi-eid-banks/op2.svg",
       "number": "500",
       "languages": [ "FI", "SV", "EN" ]
     },
@@ -71,7 +71,7 @@
       "version": "0002",
       "keyVersion": "0001",
       "idType": "02",
-      "imgPath": "logo_alandsbanken.gif",
+      "imgPath": "https://idfy-img.azureedge.net/fi-eid-banks/alandsbanken2.svg",
       "number": "600",
       "languages": [ "FI", "SV" ]
     },
@@ -83,7 +83,7 @@
       "version": "0002",
       "keyVersion": "0001",
       "idType": "02",
-      "imgPath": "logo_s_pankki.gif",
+      "imgPath": "https://idfy-img.azureedge.net/fi-eid-banks/spankki.svg",
       "number": "390",
       "languages": [ "FI", "SV" ]
     },
@@ -95,7 +95,7 @@
       "version": "0002",
       "keyVersion": "0001",
       "idType": "01",
-      "imgPath": "logo_sp.png",
+      "imgPath": "https://idfy-img.azureedge.net/fi-eid-banks/saastopankki2.svg",
       "number": "420",
       "languages": [ "FI", "SV", "EN" ]
     },
@@ -107,7 +107,7 @@
       "version": "0002",
       "keyVersion": "0001",
       "idType": "01",
-      "imgPath": "logo_pop.png",
+      "imgPath": "https://idfy-img.azureedge.net/fi-eid-banks/poppankki.svg",
       "number": "430",
       "languages": [ "FI", "SV", "EN" ]
     }
