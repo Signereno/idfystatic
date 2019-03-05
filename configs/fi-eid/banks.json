@@ -57,7 +57,7 @@
       "version": "0003",
       "keyVersion": "0001",
       "idType": "02",
-      "imgPath": "logo_sppop.gif",
+      "imgPath": "https://idfy-img.azureedge.net/fi-eid-banks/aktia.svg",
       "number": "410",
       "encoding": "ISO-8859-1",
       "languages": [ "FI", "SV" ]
