@@ -17,6 +17,7 @@ Replace the github url (https://github.com/Signereno/idfystatic/blob/master/) wi
 #### Deposit
 * [Deposit default terms in Norwegian](/terms/deposit/no-default-terms.md)
 * [Deposit default terms in English](/terms/deposit/en-default-terms.md)
+* [PEP explanation in English](/descriptions/no-deposit-pep.md)
 
 ### Contracts
 
