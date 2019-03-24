@@ -1,0 +1,16 @@
+{
+	"azuread": {
+		"name": "Microsoft Azure AD",
+		"metadataUrl": "https://login.microsoftonline.com/common/FederationMetadata/2007-06/FederationMetadata.xml",
+		"claimsMapping": {
+			"firstName": "user.givenname"
+		}
+	},
+	"telia-fi": {
+		"name": "Telia Finland",
+		"metadataUrl": "https://tunnistus.telia.fi/uas/saml2/metadata.xml",
+		"claimsMapping": {
+
+		}
+	}
+}
