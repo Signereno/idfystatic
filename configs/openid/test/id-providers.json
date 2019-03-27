@@ -12,7 +12,9 @@
       "code"
     ],
     "responseMode": "query",
-    "defaultScopes": "read:user",
+    "defaultScopes": [
+      "read:user"
+    ],
     "claimsMapping": {
       "profile": "read:user"
     },
