@@ -1,5 +1,6 @@
 {
   "github": {
+    "protocol": "oauth",
     "discoveryEndpoint": null,
     "wellKnown": {
       "authorizationEndpoint": "https://github.com/login/oauth/authorize",
