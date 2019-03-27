@@ -1,1 +1,24 @@
-
+{
+  "github": {
+    "discoveryEndpoint": null,
+    "wellKnown": {
+      "authorizationEndpoint": "https://github.com/login/oauth/authorize",
+      "tokenEndpoint": "https://github.com/login/oauth/access_token",
+      "userInfoEndpoint": "https://api.github.com/user",
+      "jwks": null
+    },
+    "responseTypes": [
+      "code"
+    ],
+    "responseMode": "query",
+    "defaultScopes": "read:user",
+    "claimsMapping": {
+      "profile": "read:user"
+    },
+    "oauthConfiguration": {
+      "userInfoAuthMode": "authorizationHeader",
+      "userInfoAuthField": "token",
+      "tokenEndpointHttpMethod": "POST"
+    }
+  }
+}
