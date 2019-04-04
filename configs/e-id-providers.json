@@ -64,5 +64,15 @@
          "svg": "https://idfy-img.azureedge.net/openid/nemid.svg",
          "sm": "https://idfy-img.azureedge.net/openid/NEM%20ID%20250x100.png"
       }
+   },
+   {
+      "type": "freja",
+      "name": "Freja eID",
+      "description": {
+         "en": "Electronic ID on your mobile phone"
+      },
+      "logo": {
+         "svg": "https://idfy-img.azureedge.net/openid/freja.svg"
+      }
    }
 ]
