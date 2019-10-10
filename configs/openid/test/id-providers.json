@@ -15,9 +15,11 @@
     "defaultScopes": [
       "read:user"
     ],
-    "claimsMapping": {
-      "profile": "read:user"
+    "scopesMapping": {
+      "profile": ["read:user"],
+      "email": ["user:email"]
     },
+    "claimsMapping": {},
     "oauthConfiguration": {
       "userInfoAuthMode": "authorizationHeader",
       "userInfoAuthField": "token",
