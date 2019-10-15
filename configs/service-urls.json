@@ -1,0 +1,129 @@
+{
+    "services": [
+    {
+        "name" : "Admin",
+            "urlTest" :  "http://signereaccounttest.azurewebsites.net",
+            "urlProd" :  ["https://signereaccount.azurewebsites.net"]
+    },
+    {
+        "name" : "Admin v2",
+        "urlDev" :  "https://idfy-admin-v2-dev.azurewebsites.net"
+    },
+    {
+        "name" : "Communication",
+        "urlTest" :  "https://signere-communication.azurewebsites.net"
+    },
+    {
+        "name" : "Dashboard v2",
+        "urlDev" :  "https://idfydashboardv2.azurewebsites.net",
+        "urlTest" :  "https://idfydashboardv2.azurewebsites.net",
+        "urlStaging" :  "https://idfydashboardv2.azurewebsites.net",
+        "urlProd" :  ["https://idfy-dashboard-app.azurewebsites.net"]
+    },
+    {
+        "name" : "Communication",
+        "urlTest" :  "http://signere-communication.azurewebsites.net"
+    },
+    {
+        "name" : "Deposit",
+        "urlProd" :  ["https://deposit.idfy.io/"]
+    },
+    {
+        "name" : "Dashboard",
+        "urlProd" :  ["https://idfy-dashboard-app.azurewebsites.net",
+        "https://dashboard.idfy.io"
+        ]
+    },
+    {
+        "name" : "Developer Portal",
+        "urlTest" :  "https://idfy-developer-v2.azurewebsites.net",
+        "urlProd" : [
+            "https://idfy-developer-1.azurewebsites.net",
+        "https://idfy-developer-2.azurewebsites.net",
+        "https://idfy-developer-webjob.azurewebsites.net"
+        ]
+    },
+    {
+        "name" : "Document Converter",
+        "urlProd" :  ["https://converter.idfy.no"]
+    },
+    {
+        "name" : "Identification",
+        "urlDev" :  "https://idfy-id-dev-staging.azurewebsites.net",
+        "urlTest" :  "https://signereidtest-staging.azurewebsites.net "
+    },
+    {
+        "name" : "Identification v2",
+        "urlTest" :  "https://idfy-id-app-v2-test.azurewebsites.net",
+        "urlProd" :  ["https://idfy-id-v2-app.azurewebsites.net"]
+    },
+    {
+        "name" : "Identity Server",
+        "urlTest" :  "https://signereoauthtest.azurewebsites.net",
+        "urlProd" :  ["http://signereoauth.azurewebsites.net"]
+    },
+    {
+        "name" : "Information (Addons)",
+        "urlTest" :  "https://addonstest.azurewebsites.net",
+        "urlProd" :  ["https://signereaddons.azurewebsites.net"]
+    },
+    {
+        "name" : "Internal API",
+        "urlTest" :  "https://idfyadminapitest.azurewebsites.net",
+        "urlProd" :  ["https://idfy-dashboard-api.azurewebsites.net/status"]
+    },
+    {
+        "name" : "JWT",
+        "urlTest" :  "https://idfy-jwt-test.azurewebsites.net",
+        "urlProd" :  ["https://idfyjwt.azurewebsites.net"]
+    },
+    {
+        "name" : "Merchantsign",
+        "urlTest" :  "https://identisignmerchanttest.azurewebsites.net",
+        "urlProd" :  ["https://signeremerchantsign.azurewebsites.net"]
+    },
+    {
+        "name" : "Notification",
+        "urlTest" :  "https://idfyeventstest.azurewebsites.net",
+        "urlProd" :  ["https://idfy-notification.azurewebsites.net"]
+    },
+    {
+        "name" : "Pades"
+    },
+    {
+        "name" : "Person",
+        "urlTest" :  "https://api-test.idfy.no/person/status "
+    },
+    {
+        "name" : "Resources",
+        "urlTest" :  "n/a",
+        "urlProd" :  ["https://idfy-resources.azurewebsites.net"]
+    },
+    {
+        "name" : "Secure Share",
+        "urlTest" :  "https://idfy-fileshare-app-test.azurewebsites.net",
+        "urlProd" :  ["https://idfy-fileshare-app-1.azurewebsites.net",
+        "https://idfy-fileshare-app-2.azurewebsites.net"]
+    },
+    {
+        "name" : "Settings",
+        "urlTest" :  "https://idfysettingsapitest.azurewebsites.net",
+        "urlProd" :  ["https://idfysettingsapiprod.azurewebsites.net"]
+    },
+    {
+        "name" : "Signature Azure",
+        "urlTest" :  "https://idfysignapptest.azurewebsites.net",
+        "urlProd" :  ["https://sign.idfy.io"],
+        "urlProdAdditional": ["https://idfy-sign-app-1.azurewebsites.net",
+        "https://idfy-sign-app-2.azurewebsites.net"]
+    },
+    {
+        "name" : "Signature Basefarm"
+    },
+    {
+        "name" : "Signere Onboarding Form",
+        "urlTest" :  "https://signere-onboarding-test.azurewebsites.net",
+        "urlProd" :  ["https://signere-onboarding.azurewebsites.net"]
+    }
+    ]
+}
