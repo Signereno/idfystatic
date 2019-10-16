@@ -50,7 +50,7 @@
     {
         "name" : "Identification",
         "urlDev" :  "https://idfy-id-dev-staging.azurewebsites.net",
-        "urlTest" :  "https://signereidtest-staging.azurewebsites.net "
+        "urlTest" :  "https://signereidtest-staging.azurewebsites.net"
     },
     {
         "name" : "Identification v2",
