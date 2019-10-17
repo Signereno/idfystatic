@@ -72,7 +72,7 @@
     },
     {
         "name" : "Internal API",
-        "urlTest" :  "https://idfyadminapitest.azurewebsites.net",
+        "urlTest" :  "https://dashboard-api-test.signere.com/status",
         "urlProd" :  ["https://idfy-dashboard-api.azurewebsites.net/status"]
     },
     {
