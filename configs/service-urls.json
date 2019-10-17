@@ -2,12 +2,15 @@
     "services": [
     {
         "name" : "Admin",
-            "urlTest" :  "http://signereaccounttest.azurewebsites.net",
-            "urlProd" :  ["https://signereaccount.azurewebsites.net"]
+        "urlTest" :  "http://signereaccounttest.azurewebsites.net",
+        "urlProd" :  ["https://signereaccount.azurewebsites.net"]
     },
     {
         "name" : "Admin v2",
-        "urlDev" :  "https://idfy-admin-v2-dev.azurewebsites.net"
+        "urlProd" :  ["http://idfy-admin-v2-prod.azurewebsites.net/"],
+        "urlDev" :  "http://idfy-admin-v2-dev.azurewebsites.net/",
+        "urlTest" :  "http://idfy-admin-v2-test.azurewebsites.net/",
+        "urlStaging" :  "http://idfy-admin-v2-staging.azurewebsites.net/"
     },
     {
         "name" : "Communication",
