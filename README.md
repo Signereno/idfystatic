@@ -11,6 +11,7 @@ Replace the github url (https://github.com/Signereno/idfystatic/blob/master/) wi
 ### Configs
 * [e-id-providers.json](/configs/e-id-providers.json) - List of e-ID providers with logo and description
 * [fi-eid/banks.json](/configs/fi-eid/banks.json) - List with information of supported banks for Finnish eID
+* [service-urls.json](/configs/service-urls.json) - List of urls for most services to check if they are up
 
 ### Terms
 
