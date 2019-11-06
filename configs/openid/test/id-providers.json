@@ -6,7 +6,11 @@
       "authorizationEndpoint": "https://github.com/login/oauth/authorize",
       "tokenEndpoint": "https://github.com/login/oauth/access_token",
       "userInfoEndpoint": "https://api.github.com/user",
-      "jwks": null
+      "jwks": null,
+      "scopesSupported": [
+        "read:user",
+        "user:email"
+      ]
     },
     "responseType": "code",
     "responseMode": "query",
