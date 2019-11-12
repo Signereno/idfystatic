@@ -95,7 +95,7 @@
     },
     {
         "name" : "Person",
-        "urlTest" :  "https://api-test.idfy.no/person/status "
+        "urlTest" :  "https://api-test.idfy.no/person/status"
     },
     {
         "name" : "Resources",
