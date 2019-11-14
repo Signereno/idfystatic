@@ -21,7 +21,9 @@
       "profile": ["read:user"],
       "email": ["user:email"]
     },
-    "claimsMapping": {},
+    "claimsMapping": {
+      "id": "sub"
+    },
     "oauthConfiguration": {
       "userInfoAuthMode": "authorizationHeader",
       "userInfoAuthField": "token",
