@@ -53,5 +53,36 @@
     ],
     "scopesMapping": {},
     "claimsMapping": {}
+  },
+  "linkedin": {
+    "protocol": "oauth",
+    "discoveryEndpoint": null,
+    "wellKnown": {
+      "authorizationEndpoint": "https://www.linkedin.com/oauth/v2/authorization",
+      "tokenEndpoint": "https://github.com/login/oauth/access_token",
+      "userInfoEndpoint": "https://api.linkedin.com/v2/me",
+      "jwks": null,
+      "scopesSupported": [
+        "r_liteprofile"
+      ]
+    },
+    "responseType": "code",
+    "responseMode": "query",
+    "defaultScopes": [
+      "r_liteprofile"
+    ],
+    "scopesMapping": {
+      "profile": "r_liteprofile"
+    },
+    "claimsMapping": {
+      "id": "sub",
+      "localizedFirstName": "given_name",
+      "localizedLastName": "family_name"
+    },
+    "oauthConfiguration": {
+      "userInfoAuthMode": "authorizationHeader",
+      "userInfoAuthField": "Bearer",
+      "tokenEndpointHttpMethod": "POST"
+    }
   }
 }
