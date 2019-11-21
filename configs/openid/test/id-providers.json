@@ -72,7 +72,7 @@
       "r_liteprofile"
     ],
     "scopesMapping": {
-      "profile": "r_liteprofile"
+      "profile": ["r_liteprofile"]
     },
     "claimsMapping": {
       "id": "sub",
