@@ -28,9 +28,15 @@
         "urlTest" :  "http://signere-communication.azurewebsites.net"
     },
     {
-        "name" : "Deposit",
-        "urlProd" :  ["https://deposit.idfy.io/"]
-    },
+		"name": "Deposit App",
+		"urlTest": "https://deposit-test.idfy.no",
+		"urlProd": ["https://deposit.idfy.no"]
+	},
+	{
+		"name": "Deposit API",
+		"urlTest": "https://api-test.idfy.no/deposit/status",
+		"urlProd": ["https://api.idfy.no/deposit/status"]
+	},
     {
         "name" : "Dashboard",
         "urlProd" :  ["https://idfy-dashboard-app.azurewebsites.net",
