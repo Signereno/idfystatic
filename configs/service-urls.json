@@ -36,7 +36,7 @@
         "name": "Deposit API",
         "urlTest": "https://api-test.idfy.no/deposit/status",
         "urlProd": ["https://api.idfy.no/deposit/status"]
-    }
+    },
     {
         "name" : "Dashboard",
         "urlProd" :  ["https://idfy-dashboard-app.azurewebsites.net",
