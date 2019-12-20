@@ -94,5 +94,15 @@
       "logo": {
          "svg": "https://idfy-img.azureedge.net/openid/Mobiilivarmenne_black.svg"         
       }
+   },
+    {
+      "type": "fi_eid",
+      "name": "Finnish eid",
+      "description": {
+         "en": "Finnish eid"
+      },
+      "logo": {
+         "svg": "https://idfy-img.azureedge.net/openid/fi_flag.svg"         
+      }
    }
 ]
