@@ -57,11 +57,6 @@
         "urlProd" :  ["https://converter.idfy.no"]
     },
     {
-        "name" : "Identification",
-        "urlDev" :  "https://idfy-id-dev-staging.azurewebsites.net",
-        "urlTest" :  "https://signereidtest-staging.azurewebsites.net"
-    },
-    {
         "name" : "Identification v2",
         "urlTest" :  "https://idfy-id-app-v2-test.azurewebsites.net",
         "urlProd" :  ["https://idfy-id-v2-app.azurewebsites.net"]
