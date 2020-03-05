@@ -59,7 +59,7 @@
     "discoveryEndpoint": null,
     "wellKnown": {
       "authorizationEndpoint": "https://www.linkedin.com/oauth/v2/authorization",
-      "tokenEndpoint": "https://github.com/login/oauth/access_token",
+      "tokenEndpoint": "https://www.linkedin.com/oauth/v2/accessToken",
       "userInfoEndpoint": "https://api.linkedin.com/v2/me",
       "jwks": null,
       "scopesSupported": [
