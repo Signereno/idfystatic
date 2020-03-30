@@ -84,5 +84,18 @@
       "userInfoAuthField": "Bearer",
       "tokenEndpointHttpMethod": "POST"
     }
+  },
+  "idin": {
+    "protocol": "openid",
+    "discoveryEndpoint": "https://preprod.signicat.com/oidc/.well-known/openid-configuration",
+    "responseType": "code",
+    "responseMode": "query",
+    "defaultScopes": [
+      "openid",
+      "profile"
+    ],
+    "scopesMapping": {},
+    "claimsMapping": {},
+    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
   }
 }
