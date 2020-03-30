@@ -85,7 +85,7 @@
       "tokenEndpointHttpMethod": "POST"
     }
   },
-  "idin": {
+  "nl_idin": {
     "protocol": "openid",
     "discoveryEndpoint": "https://preprod.signicat.com/oidc/.well-known/openid-configuration",
     "responseType": "code",
@@ -98,7 +98,7 @@
     "claimsMapping": {},
     "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
   },
-  "itsme": {
+  "be_itsme": {
     "protocol": "openid",
     "discoveryEndpoint": "https://preprod.signicat.com/oidc/.well-known/openid-configuration",
     "responseType": "code",
