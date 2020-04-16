@@ -157,10 +157,6 @@
       "urlTest": "https://sign-test.idfy.io",
       "urlProd": [
         "https://sign.idfy.io"
-      ],
-      "urlProdAdditional": [
-        "https://idfy-sign-app-1.azurewebsites.net",
-        "https://idfy-sign-app-2.azurewebsites.net"
       ]
     },
     {
