@@ -83,7 +83,7 @@
       ]
     },
     {
-      "name": "Identity Server",
+      "name": "Identity Server 3",
       "urlTest": "https://signereoauthtest.azurewebsites.net",
       "urlProd": [
         "http://signereoauth.azurewebsites.net"
@@ -172,6 +172,20 @@
       "urlProd": [
         "https://signere-onboarding.azurewebsites.net"
       ]
-    }
+    },
+    {
+      "name": "Identity Server 4",
+      "urlTest": "https://login-test.idfy.no",
+      "urlProd": [
+        "https://login.idfy.no"
+      ]
+    },
+    {
+      "name": "Access Control API",
+      "urlTest": "https://login-test.idfy.no/accessapi",
+      "urlProd": [
+        "https://login.idfy.no/accessapi"
+      ]
+    },
   ]
 }
