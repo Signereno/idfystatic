@@ -114,7 +114,7 @@
       "name": "Merchantsign",
       "urlTest": "https://identisignmerchanttest.azurewebsites.net",
       "urlProd": [
-        "https://signeremerchantsign.azurewebsites.net"
+        "https://signicat-merchantsign.azurewebsites.net"
       ]
     },
     {
