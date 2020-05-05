@@ -182,6 +182,12 @@
       "urlProd": [
         "https://login.idfy.no/accessapi"
       ]
+    },
+    {
+      "name": "Seq Signicat",
+      "urlProd": [
+        "https://seq.signicat.io"
+      ]
     }
   ]
 }
