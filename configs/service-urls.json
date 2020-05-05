@@ -129,7 +129,11 @@
     },
     {
       "name": "Person",
-      "urlTest": "https://api-test.idfy.no/person/status"
+      "urlTest": "https://api-test.idfy.no/person/status",
+      "urlProd": [
+        "https://api.idfy.no/person/status",
+        "https://api-amex.idfy.no/person/status"
+      ]
     },
     {
       "name": "Resources",
