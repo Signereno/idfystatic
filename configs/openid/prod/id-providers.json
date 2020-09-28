@@ -54,6 +54,17 @@
     "scopesMapping": {},
     "claimsMapping": {}
   },
+  "azure_ad": {
+    "protocol": "openid",
+    "discoveryEndpoint": null,
+    "responseType": "code",
+    "responseMode": "form_post",
+    "defaultScopes": [
+      "openid"
+    ],
+    "scopesMapping": {},
+    "claimsMapping": {}
+  },
   "linkedin": {
     "protocol": "oauth",
     "discoveryEndpoint": null,
