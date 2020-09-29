@@ -194,7 +194,7 @@
       ]
     },
     {
-      "name": "Information API",
+      "name": "Signicat Information API",
       "urlTest": "https://k8s-test.signicat.io/information/health/live",
       "urlProd": [
         "https://k8s-prod.signicat.io/information/health/live"
