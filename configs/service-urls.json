@@ -192,6 +192,13 @@
       "urlProd": [
         "https://seq.signicat.io"
       ]
+    },
+    {
+      "name": "Information API",
+      "urlTest": "https://k8s-test.signicat.io/information/health/live",
+      "urlProd": [
+        "https://k8s-prod.signicat.io/information/health/live"
+      ]
     }
   ]
 }
