@@ -44,18 +44,6 @@
   },
   "microsoft": {
     "protocol": "openid",
-    "discoveryEndpoint": "https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration",
-    "responseType": "code",
-    "responseMode": "form_post",
-    "defaultScopes": [
-      "openid",
-      "profile"
-    ],
-    "scopesMapping": {},
-    "claimsMapping": {}
-  },
-  "azure_ad": {
-    "protocol": "openid",
     "discoveryEndpoint": null,
     "responseType": "code",
     "responseMode": "form_post",
