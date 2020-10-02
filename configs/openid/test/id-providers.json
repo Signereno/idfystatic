@@ -109,31 +109,5 @@
     "scopesMapping": {},
     "claimsMapping": {},
     "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
-  },
-  "scid_auth": {
-  	"protocol": "openid",
-    "discoveryEndpoint": "https://preprod.signicat.com/oidc/.well-known/openid-configuration",
-    "responseType": "code",
-    "responseMode": "query",
-    "defaultScopes": [
-      "openid",
-      "profile"
-    ],
-    "scopesMapping": {},
-    "claimsMapping": {},
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
-  },
-  "scid_establishid": {
-  	"protocol": "openid",
-    "discoveryEndpoint": "https://preprod.signicat.com/oidc/.well-known/openid-configuration",
-    "responseType": "code",
-    "responseMode": "query",
-    "defaultScopes": [
-      "openid",
-      "profile"
-    ],
-    "scopesMapping": {},
-    "claimsMapping": {},
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
   }
 }
