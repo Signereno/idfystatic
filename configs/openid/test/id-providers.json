@@ -86,14 +86,13 @@
     }
   },
   "nl_idin": {
-    "protocol": "openid",
-    "discoveryEndpoint": "https://preprod.signicat.com/oidc/.well-known/openid-configuration",
+    "protocol": "openid",    
     "responseType": "code",
     "responseMode": "query",
     "defaultScopes": [
       "openid",
       "profile",
-      "idp_scoping:idin"
+      "idp_scoping:iDIN"
     ],
     "scopesMapping": {},
     "claimsMapping": {},
@@ -106,7 +105,7 @@
     "defaultScopes": [
       "openid",
       "profile",
-      "idp_scoping:itsme"
+      "idp_scoping:https://idp.e2e.itsme.services/v2"
     ],
     "scopesMapping": {},
     "claimsMapping": {},
