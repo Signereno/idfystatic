@@ -90,51 +90,57 @@
     "responseType": "code",
     "responseMode": "query",
     "defaultScopes": [
-      "openid",
-      "profile",
-      "idp_scoping:iDIN"
+      "openid",            
+      "idp_scoping:idin"
     ],
-    "scopesMapping": {},
-    "claimsMapping": {},
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+    "scopesMapping": {
+      "profile": ["profile","name","dateofbirth"],
+      "phone":"telephone"
+    },
+    "claimsMapping": {
+      "id": "sub",
+      "localizedFirstName": "given_name",
+      "urn:nl:bvn:bankid:1.0:consumer.legallastname": "family_name",
+      "urn:nl:bvn:bankid:1.0:consumer.legallastnameprefix": "middle_name"
+    },
+    "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "be_itsme": {
     "protocol": "openid",
     "responseType": "code",
     "responseMode": "query",
     "defaultScopes": [
-      "openid",
-      "profile",
+      "openid",      
       "idp_scoping:https://idp.e2e.itsme.services/v2"
     ],
     "scopesMapping": {},
     "claimsMapping": {},
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+    "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "nl_digid": {
     "protocol": "openid",
     "responseType": "code",
     "responseMode": "query",
     "defaultScopes": [
-      "openid",
-      "profile",
+      "openid",      
       "idp_scoping:https://app-preprod1.digid.nl/digid-app"
     ],
     "scopesMapping": {},
     "claimsMapping": {},
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+    "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "nl_eherkenning": {
     "protocol": "openid",    
     "responseType": "code",
     "responseMode": "query",
     "defaultScopes": [
-      "openid",
-      "profile",
+      "openid",      
       "idp_scoping:urn:etoegang:HM:00000003244440010000:entities:9632"
     ],
-    "scopesMapping": {},
+    "scopesMapping": {
+      "profile": ["profile","name"]
+    },
     "claimsMapping": {},
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+    "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   }
 }

@@ -92,11 +92,11 @@
     "defaultScopes": [
       "openid",
       "profile",
-      "idp_scoping:iDIN"
+      "idp_scoping:idin"
     ],
     "scopesMapping": {},
     "claimsMapping": {},
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+    "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "be_itsme": {
     "protocol": "openid",
@@ -109,7 +109,7 @@
     ],
     "scopesMapping": {},
     "claimsMapping": {},
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+    "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "nl_digid": {
     "protocol": "openid",
@@ -122,7 +122,7 @@
     ],
     "scopesMapping": {},
     "claimsMapping": {},
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+    "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "nl_eherkenning": {
     "protocol": "openid",    
@@ -135,6 +135,6 @@
     ],
     "scopesMapping": {},
     "claimsMapping": {},
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+    "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   }
 }
