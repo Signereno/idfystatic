@@ -92,7 +92,8 @@
     "responseMode": "query",
     "defaultScopes": [
       "openid",
-      "profile"
+      "profile",
+      "idp_scoping:idin"
     ],
     "scopesMapping": {},
     "claimsMapping": {},
@@ -100,12 +101,38 @@
   },
   "be_itsme": {
     "protocol": "openid",
-    "discoveryEndpoint": "https://preprod.signicat.com/oidc/.well-known/openid-configuration",
     "responseType": "code",
     "responseMode": "query",
     "defaultScopes": [
       "openid",
-      "profile"
+      "profile",
+      "idp_scoping:itsme"
+    ],
+    "scopesMapping": {},
+    "claimsMapping": {},
+    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+  },
+  "nl_digid": {
+    "protocol": "openid",
+    "responseType": "code",
+    "responseMode": "query",
+    "defaultScopes": [
+      "openid",
+      "profile",
+      "idp_scoping:https://app-preprod1.digid.nl/digid-app"
+    ],
+    "scopesMapping": {},
+    "claimsMapping": {},
+    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+  },
+  "nl_eherkenning": {
+    "protocol": "openid",    
+    "responseType": "code",
+    "responseMode": "query",
+    "defaultScopes": [
+      "openid",
+      "profile",
+      "idp_scoping:urn:etoegang:HM:00000003244440010000:entities:9632"
     ],
     "scopesMapping": {},
     "claimsMapping": {},
