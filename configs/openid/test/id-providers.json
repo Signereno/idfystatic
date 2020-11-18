@@ -94,14 +94,11 @@
       "idp_scoping:idin"
     ],
     "scopesMapping": {
-      "profile": ["profile","name","dateofbirth"],
+      "profile": ["profile", "name", "dateofbirth"],
       "phone":"telephone"
     },
     "claimsMapping": {
-      "id": "sub",
-      "localizedFirstName": "given_name",
-      "urn:nl:bvn:bankid:1.0:consumer.legallastname": "family_name",
-      "urn:nl:bvn:bankid:1.0:consumer.legallastnameprefix": "middle_name"
+      "{urn:nl:bvn:bankid:1.0:consumer.legallastnameprefix} {urn:nl:bvn:bankid:1.0:consumer.legallastname}": "family_name",
     },
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
@@ -113,7 +110,10 @@
       "openid",      
       "idp_scoping:https://idp.e2e.itsme.services/v2"
     ],
-    "scopesMapping": {},
+    "scopesMapping": {
+      "profile": ["profile", "name", "dateofbirth"],
+      "phone":"telephone"
+    },
     "claimsMapping": {},
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
@@ -125,8 +125,13 @@
       "openid",      
       "idp_scoping:https://app-preprod1.digid.nl/digid-app"
     ],
-    "scopesMapping": {},
-    "claimsMapping": {},
+    "scopesMapping": {
+      "profile": ["profile", "name", "dateofbirth"],
+      "phone":"telephone"
+    },
+    "claimsMapping": {
+    	"sub": "nin"
+    },
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "nl_eherkenning": {
@@ -138,7 +143,8 @@
       "idp_scoping:urn:etoegang:HM:00000003244440010000:entities:9632"
     ],
     "scopesMapping": {
-      "profile": ["profile","name"]
+      "profile": ["profile", "name", "dateofbirth"],
+      "phone":"telephone"
     },
     "claimsMapping": {},
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"

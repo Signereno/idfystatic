@@ -91,11 +91,15 @@
     "responseMode": "query",
     "defaultScopes": [
       "openid",
-      "profile",
       "idp_scoping:idin"
     ],
-    "scopesMapping": {},
-    "claimsMapping": {},
+    "scopesMapping": {
+      "profile": ["profile", "name", "dateofbirth"],
+      "phone":"telephone"
+    },
+    "claimsMapping": {
+      "{urn:nl:bvn:bankid:1.0:consumer.legallastnameprefix} {urn:nl:bvn:bankid:1.0:consumer.legallastname}": "family_name",
+    },
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "be_itsme": {
@@ -103,11 +107,13 @@
     "responseType": "code",
     "responseMode": "query",
     "defaultScopes": [
-      "openid",
-      "profile",      
+      "openid",  
       "idp_scoping:https://idp.prd.itsme.services/v2"
     ],
-    "scopesMapping": {},
+    "scopesMapping": {
+      "profile": ["profile", "name", "dateofbirth"],
+      "phone":"telephone"
+    },
     "claimsMapping": {},
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
@@ -117,11 +123,15 @@
     "responseMode": "query",
     "defaultScopes": [
       "openid",
-      "profile",
       "idp_scoping:https://was.digid.nl/saml/idp/metadata"
     ],
-    "scopesMapping": {},
-    "claimsMapping": {},
+    "scopesMapping": {
+      "profile": ["profile", "name", "dateofbirth"],
+      "phone":"telephone"
+    },
+    "claimsMapping": {
+      "sub": "nin"
+    },
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "nl_eherkenning": {
@@ -130,10 +140,12 @@
     "responseMode": "query",
     "defaultScopes": [
       "openid",
-      "profile",
       "idp_scoping:urn:etoegang:HM:00000003244440010000:entities:1135"
     ],
-    "scopesMapping": {},
+    "scopesMapping": {
+      "profile": ["profile", "name", "dateofbirth"],
+      "phone":"telephone"
+    },
     "claimsMapping": {},
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   }
