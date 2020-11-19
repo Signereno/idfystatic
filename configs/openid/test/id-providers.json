@@ -123,7 +123,7 @@
     "responseMode": "query",
     "defaultScopes": [
       "openid",      
-      "idp_scoping:https://app-preprod1.digid.nl/digid-app"
+      "idp_scoping:https://was-preprod1.digid.nl/saml/idp/metadata"
     ],
     "scopesMapping": {
       "profile": ["profile", "name", "dateofbirth"],
