@@ -95,7 +95,7 @@
     ],
     "scopesMapping": {
       "profile": ["profile", "name", "dateofbirth"],
-      "phone":"telephone"
+      "phone": ["telephone"]
     },
     "claimsMapping": {
       "{urn:nl:bvn:bankid:1.0:consumer.legallastnameprefix} {urn:nl:bvn:bankid:1.0:consumer.legallastname}": "family_name",
@@ -112,7 +112,7 @@
     ],
     "scopesMapping": {
       "profile": ["profile", "name", "dateofbirth"],
-      "phone":"telephone"
+      "phone": ["telephone"]
     },
     "claimsMapping": {},
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
@@ -127,7 +127,7 @@
     ],
     "scopesMapping": {
       "profile": ["profile", "name", "dateofbirth"],
-      "phone":"telephone"
+      "phone": ["telephone"]
     },
     "claimsMapping": {
       "sub": "nin"
@@ -144,7 +144,7 @@
     ],
     "scopesMapping": {
       "profile": ["profile", "name", "dateofbirth"],
-      "phone":"telephone"
+      "phone": ["telephone"]
     },
     "claimsMapping": {},
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
