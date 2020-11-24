@@ -104,5 +104,47 @@
       "logo": {
          "svg": "https://idfy-img.azureedge.net/openid/fi_flag.svg"         
       }
+   },
+   {
+      "type": "idin",
+      "name": "iDIN",
+      "description": {
+         "en": "Dutch eID scheme"
+      },
+      "logo": {
+         "svg": "https://idfy-img.azureedge.net/openid/idin.svg",
+         "sm": "https://idfy-img.azureedge.net/openid/idin%20250x100.png"
+      }
+   },
+   {
+      "type": "itsme",
+      "name": "itsme",
+      "description": {
+         "en": "Trusted identities verified by Belgian Mobile ID"
+      },
+      "logo": {
+         "svg": "https://idfy-img.azureedge.net/openid/itsme.svg",
+         "sm": "https://idfy-img.azureedge.net/openid/Itsme_logo_100x100.jpg"
+      }
+   },
+   {
+      "type": "eherkenning",
+      "name": "eHerkenning",
+      "description": {
+         "en": "Dutch, offers secure business identites"
+      },
+      "logo": {
+         "svg": "https://idfy-img.azureedge.net/openid/eherkenning.svg"
+      }
+   },
+   {
+      "type": "digid",
+      "name": "DigiD",
+      "description": {
+         "en": "Dutch, DigiD consists of a username and a password, and optionally an additional verification step via SMS. Another alternative is the DigiD mobile app"
+      },
+      "logo": {
+         "svg": "https://idfy-img.azureedge.net/openid/digid.svg"
+      }
    }
 ]
