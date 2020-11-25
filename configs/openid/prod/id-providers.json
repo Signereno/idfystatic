@@ -129,7 +129,7 @@
       "phone": ["telephone"]
     },
     "claimsMapping": {
-      "sub": "nin"
+      "{sub}": "nin"
     },
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
