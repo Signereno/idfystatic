@@ -51,7 +51,9 @@
       "openid"
     ],
     "scopesMapping": {},
-    "claimsMapping": {}
+    "claimsMapping": {
+      "oid": "sub"
+    }
   },
   "linkedin": {
     "protocol": "oauth",
