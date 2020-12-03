@@ -48,7 +48,8 @@
     "responseType": "code",
     "responseMode": "form_post",
     "defaultScopes": [
-      "openid"
+      "openid",
+      "profile"
     ],
     "scopesMapping": {},
     "claimsMapping": {
