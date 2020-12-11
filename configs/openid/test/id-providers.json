@@ -148,7 +148,14 @@
       "profile": ["profile", "name", "dateofbirth"],
       "phone": ["telephone"]
     },
-    "claimsMapping": {},
+    "claimsMapping": {
+      "{urn:etoegang:1.9:EntityConcernedID:KvKnr}-{urn:etoegang:1.13:EntityConcernedID:Pseudo}": "sub",
+      "urn:etoegang:1.9:EntityConcernedID:KvKnr": "organization_number",
+      "urn:etoegang:1.11:attribute-represented:CompanyName": "organization_name"
+    },
+    "staticClaims": {
+      "organization_country": "NL"
+    },
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   }
 }
