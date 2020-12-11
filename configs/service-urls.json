@@ -199,6 +199,11 @@
       "urlProd": [
         "https://k8s-prod.signicat.io/information/health/live"
       ]
+    },
+    {
+      "name": "Amex PA",      
+      "urDev": "https://amexpa-dev.azurewebsites.net",
+      "urlTest": "https://amexpa-test.azurewebsites.net"
     }
   ]
 }
