@@ -21,15 +21,6 @@
       "urlTest": "https://signere-communication.azurewebsites.net"
     },
     {
-      "name": "Dashboard v2",
-      "urlDev": "https://idfydashboardv2.azurewebsites.net",
-      "urlTest": "https://idfydashboardv2.azurewebsites.net",
-      "urlStaging": "https://idfydashboardv2.azurewebsites.net",
-      "urlProd": [
-        "https://idfy-dashboard-app.azurewebsites.net"
-      ]
-    },
-    {
       "name": "Communication",
       "urlTest": "http://signere-communication.azurewebsites.net"
     },
@@ -49,9 +40,9 @@
     },
     {
       "name": "Dashboard",
+      "urlTest": "https://dashboard-test.signicat.io",
       "urlProd": [
-        "https://idfy-dashboard-app.azurewebsites.net",
-        "https://dashboard.idfy.io"
+        "https://dashboard.signicat.io"
       ]
     },
     {
