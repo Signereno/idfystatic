@@ -157,5 +157,17 @@
       "organization_country": "NL"
     },
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
+  },
+  "dk_mitid": {
+  	"protocl": "openid",
+  	"discoveryEndpoint": "https://dev01.signicat.com/oidc/.well-known/openid-configuration",
+  	"responseType": "code",
+  	"responseMode": "query",
+  	"defaultScopes": [
+  		"openid"
+  	],
+  	"scopesMapping": {},
+  	"claimsMapping": {},
+  	"tokenEndpointAuthenticationMethod": "ClientSecretBasic"
   }
 }
