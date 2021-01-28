@@ -167,7 +167,7 @@
   		"openid"
   	],
   	"scopesMapping": {
-  		"nin": ["signicat.national_id"]
+  		"ssn": ["signicat.national_id"]
   	},
   	"claimsMapping": {},
   	"tokenEndpointAuthenticationMethod": "ClientSecretBasic",
