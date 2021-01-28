@@ -159,7 +159,7 @@
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "dk_mitid": {
-  	"protocl": "openid",
+  	"protocol": "openid",
   	"discoveryEndpoint": "https://dev01.signicat.com/oidc/.well-known/openid-configuration",
   	"responseType": "code",
   	"responseMode": "query",
@@ -168,6 +168,7 @@
   	],
   	"scopesMapping": {},
   	"claimsMapping": {},
-  	"tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+  	"tokenEndpointAuthenticationMethod": "ClientSecretBasic",
+  	"useSignedRequestObject": true,
   }
 }
