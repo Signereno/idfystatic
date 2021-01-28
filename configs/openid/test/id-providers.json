@@ -166,7 +166,9 @@
   	"defaultScopes": [
   		"openid"
   	],
-  	"scopesMapping": {},
+  	"scopesMapping": {
+  		"nin": ["signicat.national_id"]
+  	},
   	"claimsMapping": {},
   	"tokenEndpointAuthenticationMethod": "ClientSecretBasic",
   	"useSignedRequestObject": true,
