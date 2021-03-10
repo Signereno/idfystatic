@@ -159,18 +159,18 @@
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
   "dk_mitid": {
-  	"protocol": "openid",
-  	"discoveryEndpoint": "https://dev01.signicat.com/oidc/.well-known/openid-configuration",
-  	"responseType": "code",
-  	"responseMode": "query",
-  	"defaultScopes": [
-  		"openid"
-  	],
-  	"scopesMapping": {
-  		"ssn": ["signicat.national_id"]
-  	},
-  	"claimsMapping": {},
-  	"tokenEndpointAuthenticationMethod": "ClientSecretBasic",
-  	"useSignedRequestObject": true,
+    "protocol": "openid",
+    "discoveryEndpoint": "https://dev01.signicat.com/oidc/.well-known/openid-configuration",
+    "responseType": "code",
+    "responseMode": "query",
+    "defaultScopes": [
+      "openid"
+    ],
+    "scopesMapping": {
+      "ssn": ["signicat.national_id"]
+    },
+    "claimsMapping": {},
+    "tokenEndpointAuthenticationMethod": "ClientSecretBasic",
+    "useSignedRequestObject": true
   }
 }
