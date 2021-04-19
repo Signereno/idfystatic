@@ -160,7 +160,7 @@
   },
   "dk_mitid": {
     "protocol": "openid",
-    "discoveryEndpoint": "https://dev01.signicat.com/oidc/.well-known/openid-configuration",
+    "discoveryEndpoint": "https://preprod.signicat.com/oidc/.well-known/openid-configuration",
     "responseType": "code",
     "responseMode": "query",
     "defaultScopes": [
