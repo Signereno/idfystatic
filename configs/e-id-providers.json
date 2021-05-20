@@ -17,7 +17,7 @@
          "en": "With hardware token",
       },
       "logo": {
-         "svg": "https://idfy-img.azureedge.net/openid/no_bankid_rgb_blue.svg",
+         "svg": "https://idfy-img.azureedge.net/openid/no_bankid_purple.svg",
          "sm": "https://idfy-img.azureedge.net/openid/bankID%20250x100.png"
       }
    },
@@ -28,7 +28,7 @@
          "en": "BankID on your mobile device"
       },
       "logo": {
-         "svg": "https://idfy-img.azureedge.net/openid/no_bankid_rgb_blue.svg",
+         "svg": "https://idfy-img.azureedge.net/openid/no_bankid_mobile_purple.svg",
          "sm": "https://idfy-img.azureedge.net/openid/bankID%20mobil%20250x100.png"
       }
    },
