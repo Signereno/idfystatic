@@ -164,7 +164,8 @@
     "responseType": "code",
     "responseMode": "query",
     "defaultScopes": [
-      "openid"
+      "openid",
+      "mitid"
     ],
     "scopesMapping": {
       "ssn": ["signicat.national_id"]
