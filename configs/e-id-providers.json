@@ -146,5 +146,15 @@
       "logo": {
          "svg": "https://idfy-img.azureedge.net/openid/digid.svg"
       }
+   },
+   {
+      "type": "mitid",
+      "name": "MitID",
+      "description": {
+         "en": "Danish eid"
+      },
+      "logo": {
+         "svg": "https://idfy-img.azureedge.net/openid/mitid.svg"
+      }
    }
 ]
