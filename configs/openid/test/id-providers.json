@@ -170,7 +170,18 @@
     "scopesMapping": {
       "ssn": ["signicat.national_id"]
     },
-    "claimsMapping": {},
+    "claimsMapping": {
+      "signicat.national_id": "nin"
+    },
+    "rawClaims": [
+      "mitid.fal",
+      "mitid.has_cpr",
+      "mitid.psd2",
+      "mitid.aal",
+      "mitid.ial",
+      "mitid.loa",
+      "mitid.reference_text_body"
+    ],
     "tokenEndpointAuthenticationMethod": "ClientSecretBasic",
     "useSignedRequestObject": true
   }
