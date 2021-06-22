@@ -100,7 +100,7 @@
       "phone": ["telephone"]
     },
     "claimsMapping": {
-      "{urn:nl:bvn:bankid:1.0:consumer.legallastnameprefix} {urn:nl:bvn:bankid:1.0:consumer.legallastname}": "family_name",
+      "{urn:nl:bvn:bankid:1.0:consumer.legallastnameprefix} {urn:nl:bvn:bankid:1.0:consumer.legallastname}": "family_name"
     },
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
@@ -176,6 +176,7 @@
     "rawClaims": [
       "mitid.fal",
       "mitid.has_cpr",
+      "mitid.cpr.source",
       "mitid.psd2",
       "mitid.aal",
       "mitid.ial",
