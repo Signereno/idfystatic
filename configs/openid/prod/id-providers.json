@@ -100,7 +100,7 @@
       "phone": ["telephone"]
     },
     "claimsMapping": {
-      "{urn:nl:bvn:bankid:1.0:consumer.legallastnameprefix} {urn:nl:bvn:bankid:1.0:consumer.legallastname}": "family_name",
+      "{urn:nl:bvn:bankid:1.0:consumer.legallastnameprefix} {urn:nl:bvn:bankid:1.0:consumer.legallastname}": "family_name"
     },
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
   },
@@ -157,5 +157,33 @@
       "organization_country": "NL"
     },
     "tokenEndpointAuthenticationMethod": "ClientSecretPost"
+  },
+  "dk_mitid": {
+    "protocol": "openid",
+    "discoveryEndpoint": "https://id.signicat.com/oidc/.well-known/openid-configuration",
+    "responseType": "code",
+    "responseMode": "query",
+    "defaultScopes": [
+      "openid",
+      "mitid"
+    ],
+    "scopesMapping": {
+      "ssn": ["signicat.national_id"]
+    },
+    "claimsMapping": {
+      "signicat.national_id": "nin"
+    },
+    "rawClaims": [
+      "mitid.fal",
+      "mitid.has_cpr",
+      "mitid.cpr.source",
+      "mitid.psd2",
+      "mitid.aal",
+      "mitid.ial",
+      "mitid.loa",
+      "mitid.reference_text_body"
+    ],
+    "tokenEndpointAuthenticationMethod": "ClientSecretBasic",
+    "useSignedRequestObject": true
   }
 }
