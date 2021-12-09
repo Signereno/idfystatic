@@ -204,6 +204,11 @@
     "rawClaims": [
       "ftn.idpId"
     ],
-    "tokenEndpointAuthenticationMethod": "ClientSecretBasic"
+    "tokenEndpointAuthenticationMethod": "ClientSecretBasic",
+    "uiLocales": [
+      "en",
+      "fi",
+      "sv"
+    ]
   }
 }
