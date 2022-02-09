@@ -181,7 +181,8 @@
       "mitid.aal",
       "mitid.ial",
       "mitid.loa",
-      "mitid.reference_text_body"
+      "mitid.reference_text_body",
+      "mitid.uuid"
     ],
     "tokenEndpointAuthenticationMethod": "ClientSecretBasic",
     "useSignedRequestObject": true
