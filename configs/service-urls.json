@@ -10,11 +10,9 @@
     {
       "name": "Admin v2",
       "urlProd": [
-        "http://idfy-admin-v2-prod.azurewebsites.net/"
+        "http://adminv2.signicat.io"
       ],
-      "urlDev": "http://idfy-admin-v2-dev.azurewebsites.net/",
-      "urlTest": "http://idfy-admin-v2-test.azurewebsites.net/",
-      "urlStaging": "http://idfy-admin-v2-staging.azurewebsites.net/"
+      "urlTest": "http://adminv2-test.signicat.io",
     },
     {
       "name": "Communication",
