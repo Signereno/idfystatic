@@ -185,7 +185,11 @@
       "mitid.uuid"
     ],
     "tokenEndpointAuthenticationMethod": "ClientSecretBasic",
-    "useSignedRequestObject": true
+    "useSignedRequestObject": true,
+    "uiLocales": [
+      "en",
+      "da"
+    ]
   },
   "fi_ftn": {
     "protocol": "openid",
