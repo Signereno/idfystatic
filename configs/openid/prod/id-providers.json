@@ -182,7 +182,9 @@
       "mitid.ial",
       "mitid.loa",
       "mitid.reference_text_body",
-      "mitid.uuid"
+      "mitid.uuid",
+      "mitid.nemid_pid",
+      "mitid.nemid_pid_lookup_status"
     ],
     "tokenEndpointAuthenticationMethod": "ClientSecretBasic",
     "useSignedRequestObject": true,
