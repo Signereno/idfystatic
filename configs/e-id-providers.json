@@ -156,5 +156,27 @@
       "logo": {
          "svg": "https://idfy-img.azureedge.net/openid/mitid.svg"
       }
+   },
+   {
+      "type": "sk_smartid",
+      "name": "Smart-ID",
+      "description": {
+         "en": "Smart-ID is an application that can be used for authentication and document signing in various online services in Estonia, Latvia and Lithuania"
+      },
+      "logo": {
+         "svg": "https://idfy-img.azureedge.net/openid/sk_smartid.svg",
+         "sm": "https://idfy-img.azureedge.net/openid/sk_smartid.png"
+      }
+   },
+   {
+      "type": "sk_mobileid",
+      "name": "Mobiil-ID",
+      "description": {
+         "en": "Mobiil-ID is a mobile and SIM-card based identification solution that can be used for authentication and electronic document signing in various online services in Estonia and Lithuania"
+      },
+      "logo": {
+         "svg": "https://idfy-img.azureedge.net/openid/sk_mobileid.svg",
+         "sm": "https://idfy-img.azureedge.net/openid/sk_mobileid.png"
+      }
    }
 ]
